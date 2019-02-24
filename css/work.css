@@ -1,11 +1,7 @@
 .phrase-div p {
   font-weight: 700;
 }
-.section1,
-.section2,
-.section3,
-.section4,
-.section5 {
+.section-full-height {
   margin: 0;
   position: relative;
   padding: 1px;
