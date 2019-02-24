@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/work.css" />
+    <link rel="stylesheet" href="./css/education.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Gustavo Zapata Work</title>
+  </head>
+  <body>
+    <div id="refresh" role="image" aria-label="waving hand">Hola 👋</div>
+    <div id="viewport">
+      <header>
+        <div class="burger">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </div>
+        <nav>
+          <span id="dark"
+            ><img src="images/dark.png" alt="Dark Theme - Moon Image"
+          /></span>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./work.html">WORK</a></li>
+            <li><a href="./education.html" class="active">EDUCATION</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="section-viewport">
+        <h1>EDUCATION</h1>
+        <div class="logo-div">
+          <img src="./images/logo.png" alt="GZ Logo" />
+        </div>
+        <div class="phrase-div">
+          <p>
+            HERE'S WHAT I'VE DONE SO FAR IN EDUCATION
+          </p>
+        </div>
+      </section>
+    </div>
+    <!-- viewport -->
+
+    <div id="page">
+      <section class="section1">
+        <h3>FIESTAPP</h3>
+        <article class="subsection1">
+          <img src="./images/education/fiestapp.jpg" alt="Fiestapp Image" />
+          <div class="visit">
+            <a href="#" target="_blank">VISIT</a>
+          </div>
+        </article>
+      </section>
+      <section class="section2">
+        <h3>SPORTSONE</h3>
+        <article class="subsection1">
+          <img src="./images/education/sportsone.png" alt="SportsOne Image" />
+          <div class="visit">
+            <a href="https://3bn05n.axshare.com/sportsone.html" target="_blank"
+              >VISIT</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <section class="section3">
+        <h3>IT TOOLBOX</h3>
+        <article class="subsection1">
+          <img src="./images/education/ittoolbox.png" alt="IT Toolbox Image" />
+          <div class="visit">
+            <a
+              href="https://gustavozapata.me/university/gztoolbox"
+              target="_blank"
+              >VISIT</a
+            >
+          </div>
+        </article>
+      </section>
+      <section class="section4">
+        <h3>LA PIZZA KINGSTON</h3>
+        <article class="subsection1">
+          <img
+            src="./images/education/pizzakingston.jpg"
+            alt="La Pizza Kingston Image"
+          />
+          <div class="visit">
+            <a href="#" target="_blank">VISIT</a>
+          </div>
+        </article>
+      </section>
+
+      <footer>
+        <div>
+          <a href="#">Designed and Developed by GZ</a>
+        </div>
+      </footer>
+    </div>
+    <!-- page -->
+
+    <script src="./index.js"></script>
+    <script>
+      $("section").height(viewHeight + "px");
+    </script>
+  </body>
+</html>

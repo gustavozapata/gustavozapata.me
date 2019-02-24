@@ -1,0 +1,40 @@
+.section1 {
+  background: #23253a;
+}
+.section1 h3 {
+  color: #59e5e8;
+}
+.section1 .visit a {
+  color: #59e5e8;
+}
+.section2 {
+  background-color: #2391ff;
+}
+.section2 h3 {
+  color: white;
+}
+.section2 .visit a {
+  color: white;
+}
+.section3 {
+  background: linear-gradient(#f5cf36, #b036f5);
+}
+.section3 h3 {
+  color: black;
+}
+.section3 .visit a {
+  color: black;
+}
+
+.section4 {
+  background-color: white;
+}
+.section4 h3 {
+  color: #e7512e;
+}
+.section4 .visit a {
+  color: #e7512e;
+}
+.section4 .subsection1 img {
+  width: 300px;
+}

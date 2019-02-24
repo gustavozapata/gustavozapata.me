@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/work.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Gustavo Zapata Work</title>
+  </head>
+  <body>
+    <div id="refresh" role="image" aria-label="waving hand">Hola 👋</div>
+    <div id="viewport">
+      <header>
+        <div class="burger">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </div>
+        <nav>
+          <span id="dark"
+            ><img src="images/dark.png" alt="Dark Theme - Moon Image"
+          /></span>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./work.html" class="active">WORK</a></li>
+            <li><a href="./education.html">EDUCATION</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="section-viewport">
+        <h1>WORK</h1>
+        <div class="logo-div">
+          <img src="./images/logo.png" alt="GZ Logo" />
+        </div>
+        <div class="phrase-div">
+          <p>
+            HERE'S WHAT I'VE DONE SO FAR AS A PROFESSIONAL
+          </p>
+        </div>
+      </section>
+    </div>
+    <!-- viewport -->
+
+    <div id="page">
+      <section class="section1">
+        <h3>SUNNY ECO</h3>
+        <article class="subsection1">
+          <img src="./images/work/sunnyeco.png" alt="Sunny Eco Image" />
+          <div class="visit">
+            <a href="https://sunnyecogroup.com" target="_blank">VISIT</a>
+          </div>
+        </article>
+      </section>
+      <section class="section2">
+        <h3>TRADE LEDGER</h3>
+        <article class="subsection1">
+          <img src="./images/work/tradeledger.png" alt="Trade Ledger Image" />
+          <div class="visit">
+            <a href="./work/tradeledger/" target="_blank">VISIT</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section3">
+        <h3>REAL MEDIA NOW</h3>
+        <article class="subsection1">
+          <img src="./images/work/realmedia.png" alt="Real Media Now Image" />
+          <div class="visit">
+            <a href="http://realmedianow.com/" target="_blank">VISIT</a>
+          </div>
+        </article>
+      </section>
+      <section class="section4">
+        <h3>ZANTO</h3>
+        <article class="subsection1">
+          <img src="./images/work/zanto.png" alt="Zanto Logo" />
+          <div class="visit">
+            <a href="#" target="_blank">VISIT</a>
+          </div>
+        </article>
+      </section>
+
+      <footer>
+        <div>
+          <a href="#">Designed and Developed by GZ</a>
+        </div>
+      </footer>
+    </div>
+    <!-- page -->
+
+    <script src="./index.js"></script>
+    <script>
+      $("section").height(viewHeight + "px");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,231 @@
+:root {
+  --h1-size: 2.5em;
+  --h2-size: 2em;
+  --h3-size: 1.8em;
+  --h4-size: 0.9em;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: var(--h1-size);
+  font-weight: 900;
+}
+h2 {
+  font-size: var(--h2-size);
+  font-weight: 900;
+}
+h3 {
+  font-size: var(--h3-size);
+  font-weight: 700;
+}
+
+#refresh {
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(150, 150, 150);
+}
+
+#viewport {
+  padding: 1px;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: -260px;
+  background-color: white;
+  /* border-bottom: 1px solid rgb(200, 200, 200); */
+  z-index: 100;
+  transition: margin 0.45s;
+}
+#dark {
+  /* width: 20px; */
+  float: right;
+  margin: 20px;
+  cursor: pointer;
+}
+#dark img {
+  width: 22px;
+}
+header nav {
+  padding: 1px;
+  background-color: white;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+.header-open {
+  margin-top: 0;
+}
+header nav ul {
+  padding-left: 0;
+  margin: 80px auto;
+}
+header nav ul li {
+  margin: 25px 0;
+  list-style: none;
+  text-align: center;
+}
+header nav ul li a {
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+.active {
+  color: #207be2;
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  width: 40px;
+  margin: 15px;
+  cursor: pointer;
+}
+.burger-line {
+  width: 33px;
+  height: 3px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: rgb(20, 20, 20);
+  transition: all 0.4s;
+}
+.burger-topline-open {
+  transform: rotate(45deg) translate(5.5px, 4px);
+}
+.burger-middleline-open {
+  transform: rotate(-45deg);
+}
+.burger-bottomline-open {
+  opacity: 0;
+}
+
+/* VIEWPORT */
+.section-viewport {
+  margin-top: 60px;
+}
+.section-viewport h1 {
+  width: 270px;
+  margin: 10px auto;
+  text-shadow: 20px 20px 15px #ccc;
+}
+.section-viewport h1 div {
+  text-align: right;
+}
+.logo-div {
+  margin: 40px auto 10px auto;
+  text-align: right;
+}
+.logo-div img {
+  width: 260px;
+}
+.phrase-div {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 300px;
+  margin: 10px 0 10px -150px;
+  text-align: center;
+}
+.phrase-div p {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+/* MAIN PAGE */
+#page {
+  /* height: 1200px; */
+}
+
+/* SKILLS */
+section {
+  margin: 100px auto 120px auto;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.subsection1 {
+  margin: 50px 0;
+}
+.container {
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  margin: 10px 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s;
+}
+.tool-container {
+  border: 2px solid rgb(230, 230, 230);
+  box-shadow: none;
+}
+.skill-container:hover {
+  /* transform: scale(1.05); */
+}
+.container img {
+  width: 80px;
+  margin: 20px 0 10px 0;
+}
+.container h4 {
+  font-weight: 600;
+  font-size: var(--h4-size);
+}
+
+/* SLIDE IN */
+.container {
+  opacity: 0;
+}
+.come-in {
+  transform: translateY(120px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.5s; /* So they look staggered */
+}
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* FLIP CONTAINER */
+.flip-container {
+  transform: rotate(180deg);
+}
+
+footer {
+  width: 100%;
+  padding: 1px;
+  background-color: white;
+  border-top: 1px solid rgb(200, 200, 200);
+}
+footer div {
+  margin: 22px auto;
+  text-align: center;
+}
+footer div a {
+  color: black;
+  font-size: 0.9em;
+  font-weight: 700;
+}

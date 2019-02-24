@@ -1,0 +1,71 @@
+.phrase-div p {
+  font-weight: 700;
+}
+.section1,
+.section2,
+.section3,
+.section4 {
+  margin: 0;
+  position: relative;
+  padding: 1px;
+}
+section h3 {
+  margin-top: 50px;
+}
+section .subsection1 {
+  margin: 100px auto;
+}
+section .subsection1 img {
+  width: 250px;
+}
+.visit {
+  width: 100px;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  margin-left: -50px;
+}
+.visit a {
+  color: black;
+  font-weight: 700;
+}
+
+.section1 {
+  background: linear-gradient(#2cb5d8, #0558d6);
+}
+.section1 h3 {
+  color: white;
+}
+.section1 .visit a {
+  color: white;
+}
+
+.section2 {
+  background-color: #c8ebfc;
+}
+.section2 .visit a {
+  color: black;
+}
+.section2 .subsection1 img {
+  width: 280px;
+}
+
+.section3 {
+  background-color: #eaeaea;
+}
+.section3 h3 {
+  color: #33922c;
+}
+.section3 .subsection1 img {
+  width: 300px;
+}
+.section3 .visit a {
+  color: #33922c;
+}
+
+.section4 {
+  background-color: #f5cf36;
+}
+.section4 .subsection1 img {
+  width: 200px;
+}
