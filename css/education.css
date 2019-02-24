@@ -38,3 +38,11 @@
 .section4 .subsection1 img {
   width: 300px;
 }
+
+.section5 {
+  /* border: 1px solid red; */
+  padding: 1px;
+  background-image: url("../images/education/gz1.0.jpg");
+  background-size: cover;
+  background-position: center;
+}

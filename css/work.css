@@ -4,7 +4,8 @@
 .section1,
 .section2,
 .section3,
-.section4 {
+.section4,
+.section5 {
   margin: 0;
   position: relative;
   padding: 1px;
