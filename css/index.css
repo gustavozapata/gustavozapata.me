@@ -229,3 +229,44 @@ footer div a {
   font-size: 0.9em;
   font-weight: 700;
 }
+
+/* RESPONSIVE */
+@media only screen and (min-width: 800px) {
+  #refresh {
+    top: -20px;
+  }
+  header {
+    position: static;
+    margin-top: 5px;
+  }
+  header nav {
+    border: none;
+    text-align: center;
+  }
+  header nav ul {
+    margin: 40px auto;
+  }
+  header nav ul li {
+    display: inline;
+    margin: 0 5%;
+  }
+  .burger {
+    display: none;
+  }
+  #dark {
+    position: absolute;
+    right: 0;
+  }
+  .section-viewport h1 {
+    width: 330px;
+    margin: 150px auto;
+  }
+  .logo-div {
+    position: absolute;
+    right: 0;
+    top: 20%;
+  }
+  .logo-div img {
+    width: 300px;
+  }
+}
