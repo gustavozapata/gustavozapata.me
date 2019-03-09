@@ -3,8 +3,9 @@ var viewHeight = Math.max(
   document.documentElement.clientHeight,
   window.innerHeight || 0
 );
-var viewport = document.getElementById("viewport");
-viewport.style.height = viewHeight + "px";
+//USING CSS 100VH INSTEAD
+/* var viewport = document.getElementById("viewport");
+viewport.style.height = viewHeight + "px"; */
 
 //HAMBURGER MENU
 $(".burger").on("click", hamburgerToggle);

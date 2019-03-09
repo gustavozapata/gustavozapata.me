@@ -13,7 +13,13 @@ section .subsection1 {
   margin: 100px auto;
 }
 section .subsection1 img {
-  width: 250px;
+  width: 300px;
+  position: absolute;
+  /* width: 500px; */
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
 }
 .visit {
   width: 100px;
@@ -27,6 +33,9 @@ section .subsection1 img {
   font-weight: 700;
 }
 
+section {
+  height: 100vh;
+}
 .section1 {
   background: linear-gradient(#2cb5d8, #0558d6);
 }
@@ -44,7 +53,7 @@ section .subsection1 img {
   color: black;
 }
 .section2 .subsection1 img {
-  width: 280px;
+  /* width: 280px; */
 }
 
 .section3 {
@@ -54,7 +63,7 @@ section .subsection1 img {
   color: #33922c;
 }
 .section3 .subsection1 img {
-  width: 300px;
+  /* width: 300px; */
 }
 .section3 .visit a {
   color: #33922c;
@@ -64,16 +73,5 @@ section .subsection1 img {
   background-color: #f5cf36;
 }
 .section4 .subsection1 img {
-  width: 200px;
-}
-
-/* TESTING VIEWPORT HEIGHT */
-#viewport {
-  height: 100vh;
-}
-section {
-  height: 100vh;
-}
-.phrase-div p {
-  color: rgb(29, 170, 170);
+  /* width: 200px; */
 }

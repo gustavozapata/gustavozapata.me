@@ -1,21 +1,26 @@
+/* WEB APP */
 .section1 {
-  background: #23253a;
+  background: linear-gradient(rgb(33, 144, 255), rgb(69, 75, 243));
 }
 .section1 h3 {
-  color: #59e5e8;
+  /* color: black; */
 }
 .section1 .visit a {
-  color: #59e5e8;
+  /* color: black; */
 }
+
+/* FIESTAPP */
 .section2 {
-  background-color: #2391ff;
+  background: #23253a;
 }
 .section2 h3 {
-  color: white;
+  color: #59e5e8;
 }
 .section2 .visit a {
-  color: white;
+  color: #59e5e8;
 }
+
+/* IT TOOLBOX */
 .section3 {
   background: linear-gradient(#f5cf36, #b036f5);
 }
@@ -26,29 +31,38 @@
   color: black;
 }
 
+/* SPORTSONE */
 .section4 {
-  background-color: white;
+  background-color: #2391ff;
 }
 .section4 h3 {
-  color: #e7512e;
+  color: white;
 }
 .section4 .visit a {
-  color: #e7512e;
-}
-.section4 .subsection1 img {
-  width: 300px;
+  color: white;
 }
 
+/* GUSTAVO ZAPATA 1.0 */
 .section5 {
-  /* border: 1px solid red; */
-  padding: 1px;
-  background-image: url("../images/education/gz1.0.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: rgb(40, 40, 40);
 }
+.section5 h3 {
+  color: white;
+}
+.section5 .visit a {
+  color: white;
+}
+
+/* LA PIZZA KINGSTON */
 .section6 {
-  background-color: rgb(10, 115, 236);
+  background-color: white;
 }
-.section7 {
-  background-color: rgb(57, 247, 183);
+.section6 h3 {
+  color: #e7512e;
+}
+.section6 .visit a {
+  color: #e7512e;
+}
+.section6 .subsection1 img {
+  width: 300px;
 }

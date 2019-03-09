@@ -43,6 +43,7 @@ h3 {
 
 #viewport {
   padding: 1px;
+  height: 100vh;
 }
 
 /* HEADER */
