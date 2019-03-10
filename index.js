@@ -50,7 +50,7 @@ $(window).scroll(function() {
 
 //FLIP AROUND FOR INFO
 $(".container").on("click", function() {
-  $(this).toggleClass("flip-container");
+  // $(this).toggleClass("flip-container");
 });
 
 //DARK THEME
