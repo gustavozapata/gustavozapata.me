@@ -151,7 +151,7 @@ header nav ul li a:hover {
   text-align: center;
 }
 .phrase-div p {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 0.9em;
 }
 
@@ -215,6 +215,14 @@ section {
   transform: rotate(180deg);
 }
 
+/* WORK, EDUCATION */
+.section-full-height {
+  margin: 0;
+  position: relative;
+  padding: 1px;
+}
+
+/* FOOTER */
 footer {
   width: 100%;
   padding: 1px;

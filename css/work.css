@@ -1,10 +1,5 @@
-.phrase-div p {
-  font-weight: 700;
-}
-.section-full-height {
-  margin: 0;
-  position: relative;
-  padding: 1px;
+section {
+  height: 100vh;
 }
 section h3 {
   margin-top: 50px;
@@ -15,7 +10,6 @@ section .subsection1 {
 section .subsection1 img {
   width: 300px;
   position: absolute;
-  /* width: 500px; */
   top: 50%;
   left: 50%;
   margin-left: -150px;
@@ -33,9 +27,7 @@ section .subsection1 img {
   font-weight: 700;
 }
 
-section {
-  height: 100vh;
-}
+/* SUNNY ECO */
 .section1 {
   background: linear-gradient(#2cb5d8, #0558d6);
 }
@@ -46,32 +38,26 @@ section {
   color: white;
 }
 
+/* TRADE LEDGER */
 .section2 {
   background-color: #c8ebfc;
 }
 .section2 .visit a {
   color: black;
 }
-.section2 .subsection1 img {
-  /* width: 280px; */
-}
 
+/* REAL MEDIA */
 .section3 {
   background-color: #eaeaea;
 }
 .section3 h3 {
   color: #33922c;
 }
-.section3 .subsection1 img {
-  /* width: 300px; */
-}
 .section3 .visit a {
   color: #33922c;
 }
 
+/* ZANTO */
 .section4 {
   background-color: #f5cf36;
-}
-.section4 .subsection1 img {
-  /* width: 200px; */
 }
