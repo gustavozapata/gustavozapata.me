@@ -18,9 +18,6 @@ section .subsection1 img {
   margin-left: -150px;
   margin-top: -150px;
 }
-.section-full-height p {
-  display: none;
-}
 .visit {
   width: 100px;
   position: absolute;

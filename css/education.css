@@ -95,3 +95,13 @@ section .subsection1 img {
 .section6 .subsection1 img {
   width: 300px;
 }
+
+/* RESPONSIVE */
+@media only screen and (min-width: 800px) {
+  .section-full-height .subsection1 {
+    margin: 40px auto;
+  }
+  .section-full-height .subsection1 img {
+    width: 120px;
+  }
+}
