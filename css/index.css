@@ -267,6 +267,13 @@ footer div a {
     position: absolute;
     right: 0;
   }
+  .phrase-div {
+    width: 400px;
+    margin-left: -200px;
+  }
+  .phrase-div p {
+    font-size: 1.1em;
+  }
   .section-viewport h1 {
     width: 330px;
     margin: 150px auto;
