@@ -225,6 +225,12 @@ section {
 .section-full-height p {
   display: none;
 }
+.line {
+  display: none;
+}
+.link-desktop {
+  pointer-events: none;
+}
 
 /* FOOTER */
 footer {
@@ -289,13 +295,11 @@ footer div a {
   .logo-div img {
     width: 300px;
   }
-}
 
-/* RESPONSIVE WORK AND EDUCATION */
-@media only screen and (min-width: 800px) {
+  /* RESPONSIVE WORK AND EDUCATION */
   #page {
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin: 100px auto;
   }
   .line {
@@ -308,14 +312,14 @@ footer div a {
   }
   .section-full-height p {
     display: block;
-    font-weight: 700;
+    font-weight: 600;
   }
   .section-full-height {
     display: inline-block;
     width: 200px;
     height: 300px;
     border: 2px solid black;
-    margin: 50px 25px;
+    margin: 50px 30px;
     cursor: pointer;
   }
   .section-full-height .subsection1 {
@@ -332,6 +336,9 @@ footer div a {
   }
   .visit {
     display: none;
+  }
+  .link-desktop {
+    pointer-events: all;
   }
   footer {
     margin-top: 150px;
