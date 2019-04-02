@@ -78,7 +78,7 @@ $(".container").on("click", function() {
 });
 
 function switchDark() {
-  $("#theme img").attr("src", "./../images/light.png");
+  $("#theme img").attr("src", "./images/light.png");
   $("body").css("background-color", "#232323");
   $("nav").css({
     backgroundColor: "#232323",
