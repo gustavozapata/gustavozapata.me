@@ -4,3 +4,6 @@
 section .subsection1 img {
   width: 300px;
 }
+.phrase-div p {
+  font-size: 1.3em;
+}

@@ -42,6 +42,9 @@ section .subsection1 img {
 .section2 {
   background-color: #c8ebfc;
 }
+.section2 h3 {
+  color: black;
+}
 .section2 .visit a {
   color: black;
 }

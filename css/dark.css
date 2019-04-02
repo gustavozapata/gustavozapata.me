@@ -1,0 +1,40 @@
+body {
+  background-color: #232323;
+}
+nav {
+  background-color: #232323;
+  border-bottom-color: rgb(80, 80, 80);
+}
+nav ul li a:not(.active) {
+  color: white;
+}
+.burger div {
+  background-color: white;
+}
+h1,
+h2 {
+  color: white;
+}
+h1 {
+  text-shadow: 20px 20px 15px rgba(152, 152, 152, 0.16);
+}
+.container {
+  background-color: #2e2e2e;
+  color: white;
+  box-shadow: 2px 2px 6px black;
+}
+.tool-container {
+  border-color: rgb(30, 30, 30);
+  box-shadow: none;
+}
+.phrase-div p {
+  color: white;
+  box-shadow: none;
+}
+footer {
+  background-color: #232323;
+  border-top-color: rgb(80, 80, 80);
+}
+footer div a {
+  color: white;
+}
