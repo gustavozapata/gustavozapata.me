@@ -142,6 +142,13 @@ header nav ul li a:hover {
 .logo-div img {
   width: 260px;
 }
+#shade {
+  width: 280px;
+  position: absolute;
+  right: -8px;
+  top: 200px;
+  z-index: -10;
+}
 .phrase-div {
   position: absolute;
   bottom: 0;
@@ -250,6 +257,7 @@ footer div a {
 }
 
 /* RESPONSIVE */
+/* WHEN SCREEN IS BIGGER THAN 800PX */
 @media only screen and (min-width: 800px) {
   #refresh {
     top: -20px;
@@ -294,6 +302,11 @@ footer div a {
   }
   .logo-div img {
     width: 300px;
+  }
+  #shade {
+    width: 330px;
+    right: -20px;
+    top: 6px;
   }
 
   /* RESPONSIVE WORK AND EDUCATION */
@@ -342,5 +355,23 @@ footer div a {
   }
   footer {
     margin-top: 150px;
+  }
+}
+
+/* WHEN SCREEN IS VERY SMALL */
+@media only screen and (max-width: 290px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  .section-viewport h1 {
+    width: 95%;
+  }
+  .logo-div img {
+    width: 200px;
+  }
+  #shade {
+    width: 220px;
+    top: 185px;
+    right: -10px;
   }
 }
