@@ -84,6 +84,7 @@ function switchDark() {
     backgroundColor: "#232323",
     borderBottomColor: "rgb(80,80,80)"
   });
+  $("#shade").hide();
   $(".burger div").css("background-color", "white");
   $("nav ul li a")
     .not(".active")

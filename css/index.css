@@ -188,6 +188,7 @@ section {
 .platform-container {
   border: 2px solid rgb(230, 230, 230);
   box-shadow: none;
+  /* box-sizing: border-box; */
 }
 .skill-container:hover {
   /* transform: scale(1.05); */
@@ -355,6 +356,16 @@ footer div a {
   }
   footer {
     margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 381px) {
+  .container {
+    width: 120px;
+  }
+  .container img {
+    width: 60px;
+    margin: 15px 0 8px 0;
   }
 }
 
