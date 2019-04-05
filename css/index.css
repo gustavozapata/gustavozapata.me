@@ -143,10 +143,10 @@ header nav ul li a:hover {
   width: 260px;
 }
 #shade {
-  width: 280px;
+  width: 230px;
   position: absolute;
-  right: -8px;
-  top: 200px;
+  right: 40px;
+  top: 210px;
   z-index: -10;
 }
 .phrase-div {
@@ -230,7 +230,7 @@ section {
   position: relative;
   padding: 1px;
 }
-.section-full-height p {
+.container-title {
   display: none;
 }
 .line {
@@ -305,57 +305,8 @@ footer div a {
     width: 300px;
   }
   #shade {
-    width: 330px;
-    right: -20px;
+    width: 280px;
     top: 6px;
-  }
-
-  /* RESPONSIVE WORK AND EDUCATION */
-  #page {
-    text-align: center;
-    width: 80%;
-    margin: 100px auto;
-  }
-  .line {
-    display: block;
-    width: 80%;
-    margin: 150px auto;
-  }
-  .line hr {
-    border-color: rgb(230, 230, 230);
-  }
-  .section-full-height p {
-    display: block;
-    font-weight: 600;
-  }
-  .section-full-height {
-    display: inline-block;
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
-    margin: 50px 30px;
-    cursor: pointer;
-  }
-  .section-full-height .subsection1 {
-    margin: 85px auto;
-  }
-  .section-full-height .subsection1 img {
-    width: 150px;
-    position: static;
-    margin-left: 0px;
-    margin-top: 0px;
-  }
-  .section-full-height h3 {
-    display: none;
-  }
-  .visit {
-    display: none;
-  }
-  .link-desktop {
-    pointer-events: all;
-  }
-  footer {
-    margin-top: 150px;
   }
 }
 
@@ -381,8 +332,8 @@ footer div a {
     width: 200px;
   }
   #shade {
-    width: 220px;
-    top: 185px;
-    right: -10px;
+    width: 180px;
+    top: 200px;
+    right: 30px;
   }
 }
