@@ -261,7 +261,8 @@ footer div a {
 /* WHEN SCREEN IS BIGGER THAN 800PX */
 @media only screen and (min-width: 800px) {
   #refresh {
-    top: -20px;
+    /* top: -20px; */
+    display: none;
   }
   header {
     position: static;
