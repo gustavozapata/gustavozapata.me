@@ -96,7 +96,7 @@ function switchDark() {
     color: "white",
     boxShadow: "2px 2px 6px black"
   });
-  $("p").css("color", "white");
+  $("p:not(.subsection2 p)").css("color", "white");
   $(".tool-container, .platform-container").css({
     borderColor: "rgb(30,30,30)",
     boxShadow: "none"
