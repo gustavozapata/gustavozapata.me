@@ -149,6 +149,10 @@ header nav ul li a:hover {
   top: 210px;
   z-index: -10;
 }
+.shade2 {
+  top: 160px !important;
+  right: 40px !important;
+}
 .phrase-div {
   position: absolute;
   bottom: 0;
@@ -163,9 +167,6 @@ header nav ul li a:hover {
 }
 
 /* MAIN PAGE */
-#page {
-  /* height: 1200px; */
-}
 
 /* SKILLS */
 section {
@@ -190,8 +191,12 @@ section {
   box-shadow: none;
   /* box-sizing: border-box; */
 }
+.skill-container {
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+}
 .skill-container:hover {
-  /* transform: scale(1.05); */
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 .container img {
   width: 80px;
@@ -221,7 +226,9 @@ section {
 
 /* FLIP CONTAINER */
 .flip-container {
-  transform: rotate(180deg);
+  /* width: 100px; */
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
 }
 
 /* WORK, EDUCATION */
@@ -309,6 +316,9 @@ footer div a {
     width: 280px;
     top: 6px;
   }
+  .shade2 {
+    top: 10px !important;
+  }
   .container {
     margin: 12px 8px;
   }
@@ -340,5 +350,9 @@ footer div a {
     width: 180px;
     top: 200px;
     right: 30px;
+  }
+  .shade2 {
+    top: 155px !important;
+    right: 32px !important;
   }
 }

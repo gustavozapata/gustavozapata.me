@@ -89,6 +89,7 @@ section .subsection1 img {
 }
 
 /* RESPONSIVE */
+/* WHEN SCREEN IS BIGGER THAN 800PX */
 @media only screen and (min-width: 800px) {
   /* FOLLOW HERE */
   .section-full-height article {

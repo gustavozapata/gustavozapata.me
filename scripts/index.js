@@ -73,10 +73,11 @@ $(window).scroll(function() {
 });
 
 //FLIP AROUND FOR INFO
-$(".container").on("click", function() {
-  // $(this).toggleClass("flip-container");
+$(".skill-container").on("click", function() {
+  $(this).toggleClass("flip-container");
 });
 
+// DARK/LIGHT THEME
 function switchDark() {
   $("#theme img").attr("src", "./images/light.png");
   $("body").css("background-color", "#232323");
@@ -106,5 +107,8 @@ function switchDark() {
     backgroundColor: "#232323",
     borderTopColor: "rgb(80,80,80)"
   });
+  $(".line hr").css("border-color", "rgb(100,100,100)");
+  //TESTING: SWITCH THEME WITH CLASSES
+  $(".light-theme-text").toggleClass("dark-theme-text");
   $("footer div a").css("color", "white");
 }
