@@ -73,8 +73,17 @@ $(window).scroll(function() {
 });
 
 //FLIP AROUND FOR INFO
-$(".skill-container").on("click", function() {
+$(".container-back").on("click", function() {
   $(this).toggleClass("flip-container");
+  $(this)
+    .find(".inner-back")
+    .toggleClass("inner-back-active");
+});
+
+//CHAT
+$(".chat-header").on("click", function() {
+  $(".chat").toggleClass("chat-open");
+  $(".arrow").toggleClass("arrow-open");
 });
 
 // DARK/LIGHT THEME
