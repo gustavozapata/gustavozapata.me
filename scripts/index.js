@@ -119,5 +119,6 @@ function switchDark() {
   $(".line hr").css("border-color", "rgb(100,100,100)");
   //TESTING: SWITCH THEME WITH CLASSES
   $(".light-theme-text").toggleClass("dark-theme-text");
+  $(".light-theme").toggleClass("dark-theme");
   $("footer div a").css("color", "white");
 }

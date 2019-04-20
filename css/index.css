@@ -252,6 +252,12 @@ section {
 }
 /* CHAT */
 
+/* THEME */
+.dark-theme {
+  background-color: rgb(46, 46, 46);
+  border-color: rgb(30, 30, 30);
+}
+
 /* SLIDE IN --> */
 .container {
   opacity: 0;
