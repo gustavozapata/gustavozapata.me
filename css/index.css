@@ -212,7 +212,7 @@ section {
   position: fixed;
   width: 200px;
   height: 35px;
-  height: 330px;
+  /* height: 330px; */
   background-color: white;
   right: 0px;
   bottom: 0;
