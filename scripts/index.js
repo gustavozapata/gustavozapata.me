@@ -113,6 +113,11 @@ $(".chat form").on("submit", function(e) {
   }
 });
 
+// DASHBOARD
+$("#footerDash").on("click", function() {
+  $("footer").toggleClass("footer-open");
+});
+
 // DARK/LIGHT THEME
 function switchDark() {
   $("#theme img").attr("src", "./images/light.png");
