@@ -85,6 +85,33 @@ $(".chat-header").on("click", function() {
   $(".chat").toggleClass("chat-open");
   $(".arrow").toggleClass("arrow-open");
 });
+$("#checkInput").on("keyup", function(e) {
+  //MOVE CURSOR AS WE TYPE
+  // var cursorleft = $(".cursor").position();
+  // if (e.keyCode === 8 && $(this).val() !== "") {
+  //   $(".cursor").css("left", cursorleft.left - 7);
+  // } else {
+  //   $(".cursor").css("left", cursorleft.left + 7);
+  // }
+  if (
+    $(this)
+      .val()
+      .toLowerCase() === "no"
+  ) {
+    $(".chat input[type='submit']").css("color", "black");
+  } else {
+    $(".chat input[type='submit']").css("color", "rgb(170, 170, 170)");
+  }
+});
+$(".chat form").on("submit", function(e) {
+  if (
+    $("#checkInput")
+      .val()
+      .toLowerCase() !== "no"
+  ) {
+    e.preventDefault();
+  }
+});
 
 // DARK/LIGHT THEME
 function switchDark() {

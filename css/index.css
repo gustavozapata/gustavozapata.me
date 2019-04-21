@@ -212,7 +212,7 @@ section {
   position: fixed;
   width: 200px;
   height: 35px;
-  /* height: 330px; */
+  height: 330px;
   background-color: white;
   right: 0px;
   bottom: 0;
@@ -273,15 +273,45 @@ section {
 .chat-body p {
   font-weight: 500;
 }
-.chat-body span {
-  color: rgb(20, 200, 20);
+.chat-body p span {
   font-weight: bold;
+  text-decoration: underline;
+}
+.console {
+  color: rgb(20, 200, 20);
+  font-weight: 700;
   font-size: 1.3em;
+  border-bottom: 1px solid rgb(20, 200, 20);
+  padding-bottom: 2px;
+  position: relative;
+}
+.cursor {
+  width: 7px;
+  height: 4px;
+  position: absolute;
+  top: 18px;
+  left: 12px;
+  /* display: inline-block; */
+  background-color: rgb(20, 200, 20);
+  animation: cursor 1s step-end infinite;
+}
+@keyframes cursor {
+  from,
+  to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgb(20, 200, 20);
+  }
 }
 #checkInput {
-  width: 80px;
+  width: 60px;
   border: none;
-  border-bottom: 1px solid rgb(20, 200, 20);
+  padding-left: 2px;
+  border: none;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+  /* border-bottom: 1px solid rgb(20, 200, 20); */
 }
 #checkInput:focus {
   outline: none;
@@ -302,8 +332,12 @@ section {
   text-decoration: underline;
   cursor: pointer;
   width: 50px;
-  margin-top: 20px;
-  font-size: 1.2em;
+  margin: 15px;
+  font-size: 1.1em;
+  color: rgb(170, 170, 170);
+}
+.chat-body input[type="submit"]:hover {
+  /* cursor: not-allowed; */
 }
 /* CHAT */
 

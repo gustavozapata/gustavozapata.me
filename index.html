@@ -69,7 +69,7 @@
         <p>Contact Me</p>
       </div>
       <div class="chat-body">
-        <form action="" method="post">
+        <form action="index.html" method="post">
           <input
             type="text"
             name="name"
@@ -90,9 +90,12 @@
             maxlength="100"
             required
           ></textarea>
-          <p>Are you a 🤖? Yes, No</p>
-          <span>&gt;</span><input id="checkInput" type="text" />
-          <button>check</button>
+          <p>Are you a 🤖? <span>No</span>, Yes</p>
+          <span class="console"
+            >&gt;<span class="cursor"></span
+            ><input id="checkInput" type="text" maxlength="4" required/></span
+          ><br />
+          <!-- <button>check</button> -->
           <input type="submit" value="Send" />
         </form>
       </div>
