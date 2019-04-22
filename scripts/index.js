@@ -114,12 +114,6 @@ $(".chat form").on("submit", function(e) {
 });
 
 // DASHBOARD
-$("#footerDash").on("click", function() {
-  $(".dashboard").toggleClass("dashboard-open");
-});
-$(".dashboard p").on("click", function() {
-  $(".dashboard-open").toggleClass("dashboard");
-});
 
 // DARK/LIGHT THEME
 function switchDark() {

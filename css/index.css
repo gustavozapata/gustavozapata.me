@@ -475,27 +475,6 @@ footer div a {
 }
 
 /* DASHBOARD */
-#footerDash {
-  text-decoration: underline;
-}
-.dashboard {
-  position: fixed;
-  height: 250px;
-  bottom: -290px;
-  background-color: white;
-  border: 1px solid black;
-  text-align: center;
-  transition: bottom 0.5s;
-}
-.dashboard-open {
-  bottom: 0px;
-}
-.dashboard p {
-  float: right;
-  font-weight: bold;
-  margin-right: 10px;
-  cursor: pointer;
-}
 
 /* RESPONSIVE */
 /* WHEN SCREEN IS BIGGER THAN 800PX */

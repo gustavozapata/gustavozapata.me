@@ -21,6 +21,9 @@ img.image-style {
   width: 320px;
   border: 5px solid black;
 }
+#page .section4 {
+  margin-bottom: 100px;
+}
 
 /* TESTING: SWITCH THEME WITH CLASSES */
 .light-theme-text {
