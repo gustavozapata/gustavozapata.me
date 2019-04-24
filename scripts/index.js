@@ -142,12 +142,12 @@ function switchDark() {
   });
   $(".phrase-div p ").css("color", "white");
   $("footer").css({
-    backgroundColor: "#232323",
-    borderTopColor: "rgb(80,80,80)"
+    backgroundColor: "#333333"
   });
   $(".line hr").css("border-color", "rgb(100,100,100)");
   //TESTING: SWITCH THEME WITH CLASSES
   $(".light-theme-text").toggleClass("dark-theme-text");
   $(".light-theme").toggleClass("dark-theme");
-  $("footer div a").css("color", "white");
+  $("footer div a").css("color", "rgb(180,180,180)");
+  $("footer h4").css("color", "white");
 }

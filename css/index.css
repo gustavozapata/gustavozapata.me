@@ -264,6 +264,7 @@ section {
   font-family: monospace;
   padding-left: 4px;
   border: 1px solid rgb(200, 200, 200);
+  background-color: transparent;
 }
 .chat-body textarea {
   height: 90px;
@@ -461,17 +462,48 @@ section {
 footer {
   width: 100%;
   padding: 1px;
-  background-color: white;
-  border-top: 1px solid rgb(200, 200, 200);
-}
-footer div {
-  margin: 22px auto;
   text-align: center;
+  background-color: #f1f1f1;
 }
-footer div a {
-  color: black;
-  font-size: 0.9em;
-  font-weight: 700;
+.footer-header {
+  margin: 30px auto;
+}
+.footer-header img {
+  width: 80px;
+  vertical-align: middle;
+}
+.footer-header span img {
+  width: 30px;
+}
+.footer-header span a {
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #292929;
+}
+.footer-body {
+  margin: 30px auto;
+  width: 100%;
+}
+.footer-body span {
+  /* width: 50px; */
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  /* border: 1px solid red; */
+}
+.footer-body span a {
+  /* display: block; */
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #010101;
+}
+.footer-body span img {
+  display: inline-block;
+  width: 40px;
+}
+.footer-footer p {
+  font-size: 0.7em;
+  font-weight: 600;
 }
 
 /* DASHBOARD */
@@ -532,7 +564,26 @@ footer div a {
     top: 10px !important;
   }
   .container {
-    margin: 12px 8px;
+    /* border: 1px solid rgb(230, 230, 230); */
+    border: none;
+    box-shadow: none;
+    margin: 40px 20px;
+  }
+  .container h4 {
+    font-size: 1.15em;
+  }
+  .footer-body span {
+    margin: 20px 3%;
+  }
+}
+
+@media only screen and (max-width: 538px) {
+  .chat {
+    right: -150px;
+    transition: all 0.5s;
+  }
+  .chat-open {
+    right: 0;
   }
 }
 
@@ -544,13 +595,6 @@ footer div a {
   .container img {
     width: 70px;
     margin: 15px 0 8px 0;
-  }
-  .chat {
-    right: -150px;
-    transition: all 0.5s;
-  }
-  .chat-open {
-    right: 0;
   }
 }
 
