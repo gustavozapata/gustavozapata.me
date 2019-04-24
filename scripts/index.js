@@ -98,9 +98,17 @@ $("#checkInput").on("keyup", function(e) {
       .val()
       .toLowerCase() === "no"
   ) {
-    $(".chat input[type='submit']").css("color", "black");
+    if (isDarkTheme) {
+      $("#sendform").css("color", "white");
+    } else {
+      $("#sendform").css("color", "black");
+    }
   } else {
-    $(".chat input[type='submit']").css("color", "rgb(170, 170, 170)");
+    if (isDarkTheme) {
+      $("#sendform").css("color", "black");
+    } else {
+      $("#sendform").css("color", "rgb(170, 170, 170)");
+    }
   }
 });
 $(".chat form").on("submit", function(e) {
@@ -112,8 +120,6 @@ $(".chat form").on("submit", function(e) {
     e.preventDefault();
   }
 });
-
-// DASHBOARD
 
 // DARK/LIGHT THEME
 function switchDark() {
@@ -130,24 +136,21 @@ function switchDark() {
     .css("color", "white");
   $("h1, h2").css("color", "white");
   $("h1").css("text-shadow", "20px 20px 15px rgba(152,152,152,0.16)");
-  $(".container").css({
-    backgroundColor: "#2E2E2E",
-    color: "white",
-    boxShadow: "2px 2px 6px black"
-  });
   $("p:not(.subsection2 p)").css("color", "white");
-  $(".tool-container, .platform-container").css({
-    borderColor: "rgb(30,30,30)",
-    boxShadow: "none"
-  });
+
+  // CONTAINERS
+  $(".container").toggleClass("container-dark");
+  $(".tool-container, .platform-container").toggleClass("other-container-dark");
+
   $(".phrase-div p ").css("color", "white");
   $("footer").css({
     backgroundColor: "#333333"
   });
   $(".line hr").css("border-color", "rgb(100,100,100)");
+  $("footer div a").css("color", "rgb(180,180,180)");
+  $("footer h4").css("color", "white");
+
   //TESTING: SWITCH THEME WITH CLASSES
   $(".light-theme-text").toggleClass("dark-theme-text");
   $(".light-theme").toggleClass("dark-theme");
-  $("footer div a").css("color", "rgb(180,180,180)");
-  $("footer h4").css("color", "white");
 }

@@ -325,7 +325,7 @@ section {
   color: rgb(27, 141, 235);
   font-weight: bold;
 }
-.chat-body input[type="submit"] {
+#sendform {
   font-family: inherit;
   background-color: transparent;
   border: none;
@@ -336,16 +336,28 @@ section {
   font-size: 1.1em;
   color: rgb(170, 170, 170);
 }
-.chat-body input[type="submit"]:hover {
+#sendform {
   /* cursor: not-allowed; */
 }
 /* CHAT */
 
-/* THEME */
+/* THEME --> */
 .dark-theme {
   background-color: rgb(46, 46, 46);
   border-color: rgb(30, 30, 30);
 }
+.dark-theme input,
+.dark-theme textarea {
+  color: white;
+  border-color: rgb(75, 75, 75);
+}
+.dark-theme #checkInput {
+  color: white;
+}
+.dark-theme #sendform {
+  color: black;
+}
+/* <-- THEME */
 
 /* SLIDE IN --> */
 .container {
@@ -473,7 +485,7 @@ footer {
   vertical-align: middle;
 }
 .footer-header span img {
-  width: 30px;
+  width: 25px;
 }
 .footer-header span a {
   font-size: 0.8em;
@@ -505,8 +517,15 @@ footer {
   font-size: 0.7em;
   font-weight: 600;
 }
-
-/* DASHBOARD */
+.container-dark {
+  background-color: #2e2e2e;
+  color: white;
+  box-shadow: 2px 2px 6px black;
+}
+.other-container-dark {
+  border-color: rgb(30, 30, 30);
+  box-shadow: none;
+}
 
 /* RESPONSIVE */
 /* WHEN SCREEN IS BIGGER THAN 800PX */
@@ -568,6 +587,13 @@ footer {
     border: none;
     box-shadow: none;
     margin: 40px 20px;
+  }
+  .container-dark,
+  .other-container-dark {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: white;
   }
   .container h4 {
     font-size: 1.15em;
