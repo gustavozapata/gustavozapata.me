@@ -12,7 +12,8 @@ if (typeof Storage !== "undefined") {
 var urlParams = new URLSearchParams(window.location.search);
 var contactParam = urlParams.get("contact");
 if (contactParam) {
-  alert("thanks for msg");
+  alert("Thanks for msg");
+  location.href = "index.html";
 }
 
 //DARK THEME
