@@ -8,6 +8,13 @@ if (typeof Storage !== "undefined") {
   console.log("web storage is not supported 😔");
 }
 
+//CONTACT FORM SENT
+var urlParams = new URLSearchParams(window.location.search);
+var contactParam = urlParams.get("contact");
+if (contactParam) {
+  alert("thanks for msg");
+}
+
 //DARK THEME
 $("#theme").on("click", function() {
   if (isDarkTheme) {
