@@ -124,19 +124,19 @@ header nav ul li a:hover {
 }
 .mini-logo {
   position: absolute;
-  width: 160px;
+  width: 170px;
   text-align: center;
-  margin-top: 22px;
-  margin-left: -80px;
+  margin-top: 20px;
+  margin-left: -85px;
   left: 50%;
 }
 .mini-logo h4 {
   display: inline;
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-weight: 900;
 }
 .mini-logo img {
-  width: 25px;
+  width: 30px;
   vertical-align: middle;
 }
 
