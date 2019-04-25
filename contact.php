@@ -8,7 +8,7 @@ if(isset($_REQUEST["message"])){
 
   $formcontent=" From: $name \n Message: $message";
   $recipient = "contact@gustavozapata.me";
-  $subject = "GZ Contact Form";
+  $subject = "NEW GZ2.0 EMAIL!";
   $mailheader = "From: $email \r\n";
   mail($recipient, $subject, $formcontent, $email) or die("Error!");
   header("Location: index.html?contact=1");
