@@ -138,6 +138,7 @@ function switchDark() {
   });
   $("#shade").hide();
   $(".burger div").css("background-color", "white");
+  $(".mini-logo h4").css("color", "white");
   $("nav ul li a")
     .not(".active")
     .css("color", "white");
