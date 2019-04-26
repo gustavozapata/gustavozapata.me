@@ -1,7 +1,8 @@
-# My brand new portfolio website
+# My brand new portfolio website #
+![](images/logosmall.png)
 
-# Technologies
+### Technologies ###
 HTML5, CSS3, JavaScript and PHP
 
-# Tools
-VSCode, Adobe XD, Adobe Photoshop
+### Tools ###
+VSCode, XAMPP, Adobe XD, Adobe Photoshop
